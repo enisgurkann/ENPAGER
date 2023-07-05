@@ -13,7 +13,7 @@
 
 
 
-Entity freamwork kullanırken database kilitlenme yani lock olayını engellemek için kullandığımız transcaction scope olayını basite indirgemek için yaptığım extention dur
+It is a plugin that allows us to quickly paginate while using Entity framework.
  
  ## Methods
   ToPagedListAsync,ToPagedList
