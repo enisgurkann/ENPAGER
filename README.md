@@ -18,7 +18,7 @@ It is a plugin that allows us to quickly paginate while using Entity framework.
  ## Methods
   ToPagedListAsync,ToPagedList
 
-## Entity Freamwork Core Pager Provider Usage
+## Entity Framework Core Pager Provider Usage
 
 ```
 PM> Install-Package ENPAGER
