@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Razor.TagHelpers;
 namespace ENPAGER;
 
 [HtmlTargetElement("EnPager", TagStructure = TagStructure.WithoutEndTag)]
-public class QueryableTagHelper : TagHelper
+public class PagedTagHelper : TagHelper
 {
     #region Model Values
 
