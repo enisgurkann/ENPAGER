@@ -66,4 +66,30 @@ PM> Using ToPagedListAsync
 ```
 
 
+## View Usage
+
+```
+PM> ViewImport.cshtml
+```
+
+```csharp
+    @addTagHelper *, ENPAGER 
+```
+
+```
+PM> Using FrontEnd Pager {Using View}.cshtml
+```
+
+```csharp
+      <EnPager total-items="Model.customer.TotalCount"
+          total-pages="Model.customer.TotalPages"
+          page="Model.customer.PageIndex"
+          page-size="Model.customer.PageSize"
+          show-active-link="true"
+      />
+
+```
+     
+     
+
  
